@@ -1,9 +1,11 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about"
+      ><img class="img" src="../src/pic/denki.png"
+    /></router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
@@ -15,8 +17,19 @@
   color: #2c3e50;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 nav {
   padding: 30px;
+}
+
+.img {
+  width: 15%;
+  height: 15%;
 }
 
 nav a {
