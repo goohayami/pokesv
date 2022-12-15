@@ -1,8 +1,11 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about"
+    <router-link to="/denki"
       ><img class="img" src="../src/pic/denki.png"
+    /></router-link>
+    <router-link to="/normal"
+      ><img class="img" src="../src/pic/normal.png"
     /></router-link>
   </nav>
   <router-view />

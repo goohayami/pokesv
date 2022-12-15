@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import About from "../views/AboutView.vue";
+import DenkiView from "../views/DenkiView.vue";
+import NormalView from "../views/NormalView.vue";
 
 const routes = [
   {
@@ -9,9 +10,14 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/about",
-    name: "about",
-    component: About,
+    path: "/denki",
+    name: "denki",
+    component: DenkiView,
+  },
+  {
+    path: "/normal",
+    name: "normal",
+    component: NormalView,
   },
 ];
 
