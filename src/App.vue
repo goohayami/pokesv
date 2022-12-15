@@ -7,6 +7,9 @@
     <router-link to="/normal"
       ><img class="img" src="../src/pic/normal.png"
     /></router-link>
+    <router-link to="/fire"
+      ><img class="img" src="../src/pic/fire.png"
+    /></router-link>
   </nav>
   <router-view />
 </template>

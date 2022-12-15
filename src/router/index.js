@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import DenkiView from "../views/DenkiView.vue";
 import NormalView from "../views/NormalView.vue";
+import FireView from "../views/FireView.vue";
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: "/normal",
     name: "normal",
     component: NormalView,
+  },
+  {
+    path: "/fire",
+    name: "fire",
+    component: FireView,
   },
 ];
 
